@@ -13,6 +13,7 @@ print(class_names)
 
 words_list = list(english_words.english_words_lower_alpha_set)
 
+sentence_limit = 10
 training_data = []
 training_labels = []
 
@@ -26,6 +27,12 @@ for class_name in raw_training_data:
 
         for word in text.split():
             encoded_text.append(words_list.index(word))
+
+        while len(encoded_text) < 10:
+            encoded_text.append(0)
+
+        while len(encoded_text) > 10:
+            encoded_text.pop(-1)
 
         training_data.append(encoded_text)
         training_labels.append(class_names.index(class_name))
