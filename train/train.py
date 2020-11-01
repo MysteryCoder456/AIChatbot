@@ -13,7 +13,7 @@ print(class_names)
 
 words_list = list(english_words.english_words_lower_alpha_set)
 
-sentence_limit = 10
+sentence_limit = 15
 training_data = []
 training_labels = []
 
