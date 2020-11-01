@@ -1,0 +1,39 @@
+{
+    "greeting": [
+        "hello",
+        "hey",
+        "wassup",
+        "waddup",
+        "hi"
+    ],
+    "wellness": [
+        "hows life",
+        "how are you",
+        "how are you doing",
+        "are you fine",
+        "life"
+    ],
+    "age": [
+        "when were you made",
+        "how old are you",
+        "whens your birthday",
+        "when were you born",
+        "born",
+        "birthday"
+    ],
+    "joke": [
+        "tell me a joke",
+        "i want to laugh",
+        "laugh",
+        "laughter",
+        "joke"
+    ],
+    "sad": [
+        "i dont want to talk",
+        "i feel sad",
+        "i feel bad",
+        "sad",
+        "bad",
+        "feels bad man"
+    ]
+}

@@ -1,0 +1,5 @@
+greeting
+wellness
+age
+joke
+sad
