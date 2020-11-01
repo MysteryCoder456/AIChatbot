@@ -1,0 +1,3 @@
+tensorflow
+discord.py
+english-words
