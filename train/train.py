@@ -28,10 +28,10 @@ for class_name in raw_training_data:
         for word in text.split():
             encoded_text.append(words_list.index(word))
 
-        while len(encoded_text) < 10:
+        while len(encoded_text) < sentence_limit:
             encoded_text.append(0)
 
-        while len(encoded_text) > 10:
+        while len(encoded_text) > sentence_limit:
             encoded_text.pop(-1)
 
         training_data.append(encoded_text)
